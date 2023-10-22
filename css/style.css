@@ -51,7 +51,6 @@ margin: 0 10px;
 }
 
 /* Contenedor del globo */
-/* Contenedor del globo */
 .globo-pensamiento {
     position: relative;
     width: 310px;
@@ -95,4 +94,75 @@ margin: 0 10px;
 border: #005e solid;
 transition: 3s;
 
+}
+section.container:not(.no-style) {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+}
+.anime-theme {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    font-family: 'Arial', sans-serif; 
+}
+
+.anime-theme h1, .anime-theme h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+
+.anime-gallery {
+    position: relative;
+   right: 250px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.anime-gallery img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.anime-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+div h1.ed{
+position: relative;
+bottom: 10em;
+color: #f00;
+
+}
+div p.esp{
+    font-family: 'Kaushan Script', cursive;  
+position: relative;
+bottom: 10em;
+left: 200px;
+    color: #00f;
+    font-size: 24px;
+}
+.anime-theme h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+    font-size: 14px;
 }
